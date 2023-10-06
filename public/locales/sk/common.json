@@ -1,0 +1,33 @@
+{
+  "containers": {
+    "header": {
+      "menu": {
+        "home": "Domov",
+        "services": "Naše služby",
+        "products": "Produkty",
+        "about": "O nás",
+        "references": "Referencie",
+        "blog": "Blog",
+        "contact": "Kontakt"
+      },
+      "title_1": "Objavte",
+      "title_2": "neobmedzené",
+      "title_3": "IT riešenia",
+      "description_0": "Sme It spoločnosť, ktorá využíva pokročilé technológie.",
+      "description_1": "Naším poslaním je poskytnúť svojím klientom neobmedzené možnosti v rámci IT segmentu",
+      "button_hire_us": "Mám záujem",
+      "button_our_services": "Naše služby",
+      "number_clients": "97+",
+      "string_clients": "Spokojných klientov",
+      "number_teams": "5",
+      "string_teams": "Vývojárskych tímov"
+    },
+    "main": {},
+    "feedback": {},
+    "about": {},
+    "products": {},
+    "contact": {},
+    "blog": {},
+    "footer": {}
+  }
+}
