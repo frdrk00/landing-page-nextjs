@@ -10,7 +10,7 @@ const Main = () => {
           <div className="w-full h-full flex flex-col items-center lg:items-start justify-center z-10">
             <h2 className="text-[87px] text-texlight font-semibold text-white leading-[92.5px] font-sans">
               Objavte neobmedzené{' '}
-              <span className="block tracking-wider bg-gradient-to-r from-[#6E96FF] to-[#AA6EFF] bg-clip-text text-transparent">
+              <span className="block tracking-wider bg-gradient-to-r from-[#6E95FF] to-[#A96CFE] bg-clip-text text-transparent">
                 IT riesenia
               </span>
             </h2>
@@ -41,7 +41,7 @@ const Main = () => {
           </div>
 
           {/* Blob */}
-          <div className="max-h-[636px] max-w-[630px] rounded-full border-t-1.5 border-r-1.5 border-b-1.5 bg-gradient-to-br from-opacity-21 via-opacity-21 to-opacity-0 shadow-md">
+          <div className="max-h-[636px] max-w-[630px] rounded-full border-t-1.5 border-r-1.5 border-b-1.5 bg-gradient-to-br from-opacity-21 via-opacity-21 to-opacity-0 drop-shadow-sm shadow-md">
             <img src="/blobanimation.svg" className="w-full h-full" />
           </div>
 
@@ -49,7 +49,7 @@ const Main = () => {
       </div>
 
       {/* Numbers */}
-      <div className="w-full flex flex-row space-x-12 px-4 my-4 text-white">
+      <div className="w-full flex flex-row space-x-12 px-4 my-4 text-white mb-10">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-5xl text-white text-center font-sans font-semibold leading-normal">
             97 +
@@ -59,7 +59,7 @@ const Main = () => {
             <br /> klientov
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center ">
+        <div className="flex flex-col justify-center items-center">
           <h1 className="text-5xl text-white text-center font-sans font-semibold leading-normal">
             5
           </h1>

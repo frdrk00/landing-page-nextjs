@@ -8,7 +8,7 @@ const Blog = () => {
       </div>
 
       <div className="flex flex-row w-full items-center justify-center mb-10 space-x-6">
-        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg shadow-md">
+        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 drop-shadow-2xl shadow-md">
           <div className="space-y-4 mb-4">
             <img src="/img/blog/blog-2.png" alt="" />
             <div className="flex flex-start pl-4">
@@ -24,7 +24,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg shadow-md">
+        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 drop-shadow-2xl shadow-md">
           <div className="space-y-4 mb-4">
             <img src="/img/blog/blog-1.png" alt="" />
             <div className="flex flex-start pl-4">
@@ -40,7 +40,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg shadow-md">
+        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 drop-shadow-2xl shadow-md">
           <div className="space-y-4 mb-4">
             <img src="/img/blog/blog-3.png" alt="" />
             <div className="flex flex-start pl-4">

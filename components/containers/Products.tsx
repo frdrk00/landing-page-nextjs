@@ -7,7 +7,7 @@ const Products = () => {
         </h2>
       </div>
       <div className="grid grid-cols-3 gap-4">
-        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg shd">
+        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shd">
           <div className="flex flex-col items-center space-y-6 py-10 px-4">
             <img src="/img/products/product-2.png" alt="" />
             <div>
@@ -20,7 +20,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg shadow-md">
+        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
           <div className="flex flex-col items-center space-y-6 py-10 px-4">
             <img src="/img/products/product-3.png" alt="" />
             <h1 className="text-xl text-white">Managment systém</h1>
@@ -31,7 +31,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg shadow-md">
+        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
           <div className="flex flex-col items-center space-y-6 py-10 px-4">
             <img src="/img/products/product-4.png" alt="" />
             <h1 className="text-xl text-white">CRM systém</h1>
@@ -42,7 +42,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg shadow-md">
+        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
           <div className="flex flex-col items-center space-y-6 py-10 px-4">
             <img src="/img/products/product-5.png" alt="" />
             <h1 className="text-xl text-white">Inzerčný portál</h1>
@@ -53,7 +53,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg shadow-md">
+        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
           <div className="flex flex-col items-center space-y-6 py-10 px-4">
             <img src="/img/products/product-6.png" alt="" />
             <h1 className="text-xl text-white">Sociálna sieť</h1>
@@ -64,7 +64,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg shadow-md">
+        <div className="rounded-3xl border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
           <div className="flex flex-col items-center space-y-6 py-10 px-4">
             <img src="/img/products/product-1.png" alt="" />
             <h1 className="text-xl text-white">Firemný dashboard</h1>
