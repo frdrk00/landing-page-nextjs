@@ -2,7 +2,7 @@ import {
   About,
   Blog,
   Contact,
-  Feedback,
+  References,
   Footer,
   Header,
   Main,
@@ -14,7 +14,7 @@ export default function Home() {
     <div className="h-full bg-gradient-to-br from-[#211747] to-[#100F25] px-[70px] flex flex-col items-center">
       <Header  />
       <Main />
-      <Feedback />
+      <References />
       <About />
       <Products />
       <Contact />

@@ -8,6 +8,9 @@ module.exports = {
     './src/**/*.{ts,tsx}',
 	],
   theme: {
+    fontFamily: {
+      sans: ['Orbitron', 'sans-serif'],
+    },
     container: {
       center: true,
       padding: "2rem",
