@@ -41,9 +41,10 @@ const Main = () => {
           </div>
 
           {/* Blob */}
-          <div className="rounded-full border-t-1.5 border-r-1.5 border-b-1.5 bg-gradient-to-br from-opacity-21 via-opacity-21 to-opacity-0 shadow-md">
+          <div className="max-h-[636px] max-w-[630px] rounded-full border-t-1.5 border-r-1.5 border-b-1.5 bg-gradient-to-br from-opacity-21 via-opacity-21 to-opacity-0 shadow-md">
             <img src="/blobanimation.svg" className="w-full h-full" />
           </div>
+
         </div>
       </div>
 

@@ -11,7 +11,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-[#211747] to-[#100F25] px-[70px] flex flex-col items-center">
+    <div className="flex flex-col bg-gradient-to-br from-[#211747] to-[#100F25] sm:px-[160px]">
       <Header  />
       <Main />
       <References />
