@@ -7,7 +7,7 @@ const Main = () => {
       <div className="flex flex-row mt-14">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
           {/* Title */}
-          <div className="w-full h-full flex flex-col items-center lg:items-start justify-center">
+          <div className="w-full h-full flex flex-col items-center lg:items-start justify-center z-10">
             <h2 className="text-[87px] text-texlight font-semibold text-white leading-[92.5px] font-sans">
               Objavte neobmedzené{' '}
               <span className="block tracking-wider bg-gradient-to-r from-[#6E96FF] to-[#AA6EFF] bg-clip-text text-transparent">

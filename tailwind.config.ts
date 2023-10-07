@@ -10,6 +10,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Orbitron', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif'],
     },
     container: {
       center: true,
