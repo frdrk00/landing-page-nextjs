@@ -5,14 +5,15 @@ import { motion } from 'framer-motion'
 import { Menus } from '@/lib/helpers'
 
 import LanguageSwitcher from '@/components/language-switcher'
-import Image from 'next/image'
+
+
 
 const Header = () => {
   return (
     <section id="home" className='w-full'>
       <div className="flex justify-between py-8">
         <div className="flex items-center justify-center">
-          <img src="next.svg" className='w-20 h-6 object-contain' alt="" />
+          <img src="logo.svg" alt="" />
         </div>
         <div className='flex gap-8'>
           <motion.ul
