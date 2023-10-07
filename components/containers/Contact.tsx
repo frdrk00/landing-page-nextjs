@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section id="about" className="my-10 ">
+    <section id="contact" className="my-10 ">
       <div className="flex items-center justify-center mb-10">
         <h2 className="text-4xl font-semibold font-sans bg-gradient-to-r from-[#6E96FF] to-[#AA6EFF] bg-clip-text text-transparent">
           Napíšte nám
@@ -13,14 +13,12 @@ const Contact = () => {
             <input
               type="text"
               name="firstName"
-              value=""
               placeholder="Meno"
               className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
             />
             <input
               type="text"
               name="lastName"
-              value=""
               placeholder="Priezvisko"
               className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
             />
@@ -30,7 +28,6 @@ const Contact = () => {
           <input
             type="email"
             name="email"
-            value=""
             placeholder="Email"
             className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
           />
@@ -39,14 +36,13 @@ const Contact = () => {
             id=""
             cols={0}
             rows={10}
-            value=""
             placeholder="Napíšte nám správu"
             className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
           ></textarea>
           <div className="w-full flex items-center justify-center lg:justify-end">
             <div className="bg-gradient-to-r from-[#1E1741] to-[#5E16F9] p-[1px] rounded-full">
               <button className="px-8 py-3 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full">
-                <p className="text-white">Naše služby</p>
+                <p className="text-white">Odoslať</p>
               </button>
             </div>
           </div>

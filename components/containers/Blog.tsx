@@ -1,6 +1,6 @@
 const Blog = () => {
   return (
-    <section id="about" className="my-10 ">
+    <section id="blog" className="my-10 ">
       <div className="flex items-center justify-center mb-10">
         <h2 className="text-4xl font-semibold font-sans bg-gradient-to-r from-[#6E96FF] to-[#AA6EFF] bg-clip-text text-transparent">
           Blog

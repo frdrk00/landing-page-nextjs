@@ -7,7 +7,7 @@ const About = () => {
         </h2>
       </div>
 
-      <div className="flex flex-col items-center justify-center mt-14 space-y-14">
+      <div className="flex flex-col items-center justify-center mt-14 space-y-14 px-4">
         <div className="flex flex-row space-x-10 w-full justify-start">
           <div className="flex flex-col justify-center">
             <div className="w-[330px] h-[330px] rounded-full bg-gradient-to-br from-[#211747] to-[#100F25] font-bold">
@@ -17,11 +17,11 @@ const About = () => {
             </div>
           </div>
           <div className="relative flex flex-col items-start justify-center space-y-12">
-            <h1 className="absolute top-14 uppercase text-5xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute top-8 uppercase text-5xl text-white opacity-[2%] font-sans font-semibold">
               Analýzy a audit
             </h1>
             <h1 className="text-xl text-white">Analýzy a audit</h1>
-            <p className="text-xs font-poppins text-gray-400 text-start not-italic font-normal">
+            <p className="text-[18px] font-poppins text-gray-400 text-start">
               Upload your work then Click My Collections and set up your
               collection. Add social links, a description,
               <br /> profile & banner images, and set a secondary sales fee.
@@ -41,11 +41,11 @@ const About = () => {
 
         <div className="flex flex-row space-x-10 w-full justify-between">
           <div className="relative flex flex-col items-start justify-center space-y-12">
-            <h1 className="absolute top-14 uppercase text-5xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute top-8 uppercase text-5xl text-white opacity-[2%] font-sans font-semibold">
               Design
             </h1>
             <h1 className="text-xl text-white">Design</h1>
-            <p className="text-xs font-poppins text-gray-400 text-start not-italic font-normal">
+            <p className="text-[18px] font-poppins text-gray-400 text-start">
               Upload your work then Click My Collections and set up your
               collection. Add social links, a description,
               <br /> profile & banner images, and set a secondary sales fee.
@@ -78,11 +78,11 @@ const About = () => {
             </div>
           </div>
           <div className="relative flex flex-col items-start justify-center space-y-12">
-            <h1 className="absolute top-14 uppercase text-5xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute top-8 uppercase text-5xl text-white opacity-[2%] font-sans font-semibold">
               Programovanie
             </h1>
             <h1 className="text-xl text-white">Programovanie</h1>
-            <p className="text-xs font-poppins text-gray-400 text-start not-italic font-normal">
+            <p className="text-[18px] font-poppins text-gray-400 text-start">
               Upload your work then Click My Collections and set up your
               collection. Add social links, a description,
               <br /> profile & banner images, and set a secondary sales fee.
