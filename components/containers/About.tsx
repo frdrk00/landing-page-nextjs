@@ -17,7 +17,7 @@ const About = () => {
             </div>
           </div>
           <div className="relative flex flex-col items-start justify-center sm:space-y-12 space-y-8">
-            <h1 className="absolute top-8 uppercase text-5xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute sm:top-14 top-8 uppercase text-5xl text-white opacity-[2%] font-sans font-semibold">
               Analýzy a audit
             </h1>
             <h1 className="text-xl text-white">Analýzy a audit</h1>
@@ -41,7 +41,7 @@ const About = () => {
 
         <div className="flex flex-row sm:space-x-10 w-full justify-between">
           <div className="relative flex flex-col items-start justify-center sm:space-y-12 space-y-8">
-            <h1 className="absolute top-8 uppercase text-5xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute sm:top-14 top-8 uppercase text-5xl text-white opacity-[2%] font-sans font-semibold">
               Design
             </h1>
             <h1 className="text-xl text-white">Design</h1>
@@ -78,7 +78,7 @@ const About = () => {
             </div>
           </div>
           <div className="relative flex flex-col items-start justify-center sm:space-y-12 space-y-8">
-            <h1 className="absolute top-8 uppercase sm:text-5xl text-4xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute sm:top-14 top-8 uppercase sm:text-5xl text-4xl text-white opacity-[2%] font-sans font-semibold">
               Programovanie
             </h1>
             <h1 className="text-xl text-white">Programovanie</h1>
