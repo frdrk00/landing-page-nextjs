@@ -19,6 +19,7 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         drop: "text-primary-foreground hover:bg-primary/90 outline-none border w-22 rounded-full focus:outline-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:ring-primary focus-visible:ring-offset-primary",
+        hamburger: "text-primary-foreground outline-none w-22 focus:outline-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:ring-primary focus-visible:ring-offset-primary",
       },
       size: {
         default: "h-10 px-4 py-2",

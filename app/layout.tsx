@@ -18,7 +18,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={cn(font.className, 'relative')}>{children}</body>
+      <body
+        className={cn(
+          font.className,
+          'overflow-auto h-full max-sm:p-2 my-6 bg-gradient-to-br from-[#191236] to-[#0d0d1f]'
+        )}
+      >
+        <div className="mx-auto max-w-screen-xl h-full">{children}</div>
+      </body>
     </html>
   )
 }

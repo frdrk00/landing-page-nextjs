@@ -14,13 +14,13 @@ const Contact = () => {
               type="text"
               name="firstName"
               placeholder="Meno"
-              className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
+              className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-gray-400 text-gray-200"
             />
             <input
               type="text"
               name="lastName"
               placeholder="Priezvisko"
-              className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
+              className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-gray-400 text-gray-200"
             />
           </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
             type="email"
             name="email"
             placeholder="Email"
-            className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
+            className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-gray-400 text-gray-200"
           />
           <textarea
             name="message"
@@ -37,9 +37,9 @@ const Contact = () => {
             cols={0}
             rows={10}
             placeholder="Napíšte nám správu"
-            className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
+            className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-gray-400 text-gray-200"
           ></textarea>
-          <div className="w-full flex items-center justify-center lg:justify-end">
+          <div className="w-full sm:flex items-center justify-center lg:justify-end">
             <div className="bg-gradient-to-r from-[#1E1741] to-[#5E16F9] p-[1px] rounded-full">
               <button className="px-8 py-3 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full">
                 <p className="text-white">Odoslať</p>
