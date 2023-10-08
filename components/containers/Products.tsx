@@ -7,12 +7,12 @@ const Products = () => {
         </h2>
       </div>
       <div className="sm:grid grid-cols-3 gap-4 max-sm:space-y-4">
-        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
+        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-md">
           <div className="flex flex-col sm:items-center space-y-6 sm:py-10 sm:px-4">
             <img
               src="/img/products/product-2.png"
               alt=""
-              className="w-full py-[2px] px-[2px]"
+              className="w-full max-sm:py-[2px] ma-sm:px-[2px]"
             />
             <div className="flex sm:flex-col max-sm:justify-between sm:space-y-6 items-center max-sm:mx-4 max-sm:pb-8 ">
               <div>
@@ -26,7 +26,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
+        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-md">
           <div className="flex flex-col sm:items-center space-y-6 sm:py-10 sm:px-4">
             <img
               src="/img/products/product-3.png"
@@ -45,7 +45,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
+        <div className="rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-md">
           <div className="flex flex-col sm:items-center space-y-6 sm:py-10 sm:px-4">
             <img
               src="/img/products/product-4.png"
@@ -64,7 +64,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="max-sm:hidden rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
+        <div className="max-sm:hidden rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-md">
           <div className="flex flex-col items-center space-y-6 py-10 px-4">
             <img
               src="/img/products/product-5.png"
@@ -79,7 +79,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="max-sm:hidden rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
+        <div className="max-sm:hidden rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-md">
           <div className="flex flex-col items-center space-y-6 py-10 px-4">
             <img src="/img/products/product-6.png" alt="" />
             <h1 className="text-xl text-white">Sociálna sieť</h1>
@@ -90,7 +90,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="max-sm:hidden rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gray-100 bg-opacity-5 shadow-md">
+        <div className="max-sm:hidden rounded-[40px] border-y-[1px] border-[#d17ffb] bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-md">
           <div className="flex flex-col items-center space-y-6 py-10 px-4">
             <img src="/img/products/product-1.png" alt="" />
             <h1 className="text-xl text-white">Firemný dashboard</h1>

@@ -14,7 +14,7 @@ const Header = () => {
         <div className="flex sm:items-center sm:justify-center">
           <img src="logo.svg" alt="" className="max-sm:w-60" />
         </div>
-        <div className="flex gap-8 max-sm:hidden">
+        <div className="flex gap-8 max-sm:hidden relative">
           <motion.ul
             initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}

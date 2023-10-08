@@ -7,7 +7,7 @@ const Main = () => {
           <div className="flex flex-col sm:items-center lg:items-start sm:justify-center max-sm:space-y-10 z-10">
             <h2 className="sm:text-[87px] max-sm:text-3xl font-semibold text-white leading-[92.5px] font-sans">
               Objavte neobmedzené
-              <span className="block tracking-wider bg-gradient-to-r from-[#6E95FF] to-[#A96CFE] bg-clip-text text-transparent">
+              <span className="block tracking-wider bg-gradient-to-r from-[#6E95FF] via-[#A96CFE] to-[#7141b4] bg-clip-text text-transparent">
                 IT riesenia
               </span>
             </h2>
