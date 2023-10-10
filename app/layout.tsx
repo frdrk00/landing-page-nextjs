@@ -21,7 +21,7 @@ export default function RootLayout({
       <body
         className={cn(
           font.className,
-          'overflow-auto h-full max-sm:p-2 my-6 bg-gradient-to-br from-[#191236] to-[#0d0d1f]'
+          'overflow-auto h-full max-sm:p-4 my-6 bg-gradient-to-br from-[#191236] to-[#0d0d1f]'
         )}
       >
         <div className="mx-auto max-w-screen-xl h-full">{children}</div>

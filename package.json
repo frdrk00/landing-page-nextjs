@@ -21,6 +21,7 @@
     "clsx": "^2.0.0",
     "framer-motion": "^10.16.4",
     "framer-motion-3d": "^10.16.4",
+    "he": "^1.2.0",
     "i18next": "^23.5.1",
     "i18next-resources-to-backend": "^1.1.4",
     "lucide-react": "^0.284.0",

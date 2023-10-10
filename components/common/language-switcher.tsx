@@ -14,7 +14,7 @@ const LanguageSwitcher = () => {
   const [language, setLanguage] = useState('en')
 
   return (
-    <DropdownMenu >
+    <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="drop" size="drop">
           <p className="uppercase">
@@ -43,22 +43,24 @@ const LanguageSwitcher = () => {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-30 bg-transparent border-none ">
-        <DropdownMenuRadioGroup value={language} onValueChange={setLanguage} >
-          <DropdownMenuRadioItem value="en" className='cursor-pointer text-white focus:bg-[#394F68] focus:border'>
-              <img
-                src="/img/en.png"
-                alt=""
-                className="h-8 w-8 object-contain"
-              />
-              <span className="uppercase text-white font-semibold space-x-2">en</span>
+        <DropdownMenuRadioGroup value={language} onValueChange={setLanguage}>
+          <DropdownMenuRadioItem
+            value="en"
+            className="cursor-pointer text-white focus:bg-[#394F68] focus:border"
+          >
+            <img src="/img/en.png" alt="" className="h-8 w-8 object-contain" />
+            <span className="uppercase text-white font-semibold space-x-2">
+              en
+            </span>
           </DropdownMenuRadioItem>
-          <DropdownMenuRadioItem value="sk" className='cursor-pointer text-white focus:bg-[#394F68] focus:border'>
-          <img
-                src="/img/sk.png"
-                alt=""
-                className="h-8 w-8 object-contain"
-              />
-              <span className="uppercase text-white font-semibold space-x-2">sk</span>
+          <DropdownMenuRadioItem
+            value="sk"
+            className="cursor-pointer text-white focus:bg-[#394F68] focus:border"
+          >
+            <img src="/img/sk.png" alt="" className="h-8 w-8 object-contain" />
+            <span className="uppercase text-white font-semibold space-x-2">
+              sk
+            </span>
           </DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>

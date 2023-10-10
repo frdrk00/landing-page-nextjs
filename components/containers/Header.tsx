@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 
 import { Menus } from '@/lib/helpers'
 
-import LanguageSwitcher from '@/components/language-switcher'
-import { MenuButton } from '@/components/menu-mobile'
+import LanguageSwitcher from '@/components/common/language-switcher'
+import { MenuButton } from '@/components/menu/menu-mobile'
 
 const Header = () => {
   return (

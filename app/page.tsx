@@ -21,7 +21,7 @@ export default function Home() {
       <Contact />
       <Blog />
       <Footer />
-      <div className="-z-10 opacity-40">
+      <div className="-z-10 opacity-50">
         <ParticlesContainer />
       </div>
     </div>

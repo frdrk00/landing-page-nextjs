@@ -2,8 +2,8 @@ const Contact = () => {
   return (
     <section id="contact" className="my-10 ">
       <div className="flex items-center justify-center mb-10">
-        <h2 className="text-4xl font-semibold font-sans bg-gradient-to-r from-[#6E96FF] to-[#AA6EFF] bg-clip-text text-transparent">
-          Napíšte nám
+        <h2 className="sm:text-[48px] text-[36px] font-semibold font-sans bg-gradient-to-r from-[#6E96FF] to-[#AA6EFF] bg-clip-text text-transparent">
+          Napíste nám
         </h2>
       </div>
 
@@ -41,8 +41,8 @@ const Contact = () => {
           ></textarea>
           <div className="w-full sm:flex items-center justify-center lg:justify-end">
             <div className="bg-gradient-to-r from-[#1E1741] to-[#5E16F9] p-[1px] rounded-full">
-              <button className="px-8 py-3 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full">
-                <p className="text-white">Odoslať</p>
+              <button className="px-8 py-2 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full">
+                <p className="text-white font-medium">Odoslať</p>
               </button>
             </div>
           </div>

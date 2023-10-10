@@ -6,6 +6,7 @@ import fragmentShader from './fragment-shader'
 import { useFrame } from '@react-three/fiber'
 import { MathUtils } from 'three'
 import { motion } from 'framer-motion-3d'
+import { BoxGeometry } from 'three'
 
 const BlobAnimation = () => {
   const mesh = useRef(null)
@@ -13,8 +14,8 @@ const BlobAnimation = () => {
   // @ts-ignore
   const uniforms = useMemo(() => {
     return {
-      u_time: { value: 0 },
-      u_intensity: { value: 0.3 },
+      u_time: { value: -1.0 },
+      u_intensity: { value: 0.1 },
     }
   })
 
@@ -27,7 +28,7 @@ const BlobAnimation = () => {
       mesh.current.material.uniforms.u_intensity.value = MathUtils.lerp(
         // @ts-ignore
         mesh.current.material.uniforms.u_intensity.value,
-        hover.current ? 1 : 0.15,
+        hover.current ? 0.5 : 0.05,
         0.02
       )
     }
@@ -41,11 +42,14 @@ const BlobAnimation = () => {
       onPointerOver={() => (hover.current = true)}
       onPointerOut={() => (hover.current = false)}
     >
+      <boxGeometry args={[5, 5, 1]} />
       <sphereGeometry args={[1, 64, 64]} />
       <shaderMaterial
         vertexShader={vertexShader}
         fragmentShader={fragmentShader}
         uniforms={uniforms}
+        transparent={true}
+        opacity={0.5}
       />
     </motion.mesh>
   )
