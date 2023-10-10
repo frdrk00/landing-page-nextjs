@@ -1,3 +1,6 @@
+'use client'
+import { motion } from 'framer-motion'
+
 const About = () => {
   return (
     <section id="about" className="flex flex-col my-16">
@@ -17,7 +20,7 @@ const About = () => {
             </div>
           </div>
           <div className="relative flex flex-col items-start justify-center sm:space-y-8 space-y-4">
-            <h1 className="absolute sm:top-10 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute sm:top-14 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
               Analýzy a audit
             </h1>
             <h1 className="sm:text-[36px] text-[28px] text-white font-medium">
@@ -33,11 +36,15 @@ const About = () => {
             </p>
 
             <div className="bg-gradient-to-r from-[#1E1741] to-[#5E16F9] p-[1px] rounded-full">
-              <button className="px-8 py-2 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full">
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="px-8 py-2 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full"
+              >
                 <p className="text-white font-medium sm:text-[20px] text-[14px]">
                   Zobraziť viac
                 </p>
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>
@@ -51,7 +58,7 @@ const About = () => {
             </div>
           </div>
           <div className="relative flex flex-col items-start justify-center sm:space-y-8 space-y-4">
-            <h1 className="absolute sm:top-10 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute sm:top-14 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
               Design
             </h1>
             <h1 className="sm:text-[36px] text-[28px] text-white font-medium">
@@ -66,11 +73,15 @@ const About = () => {
               fee.
             </p>
             <div className="bg-gradient-to-r to-[#1E1741] from-[#5E16F9] p-[1px] rounded-full">
-              <button className="px-8 py-2 bg-gradient-to-br to-[#5E16F9] from-[#1E1741] rounded-full h-auto w-full">
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="px-8 py-2 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full"
+              >
                 <p className="text-white font-medium sm:text-[20px] text-[14px]">
                   Zobraziť viac
                 </p>
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>
@@ -84,7 +95,7 @@ const About = () => {
             </div>
           </div>
           <div className="relative flex flex-col items-start justify-center sm:space-y-8 space-y-4">
-            <h1 className="absolute sm:top-10 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute sm:top-14 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
               Programovanie
             </h1>
             <h1 className="sm:text-[36px] text-[28px] text-white font-medium">
@@ -99,11 +110,15 @@ const About = () => {
               fee.
             </p>
             <div className="bg-gradient-to-r from-[#1E1741] to-[#5E16F9] p-[1px] rounded-full">
-              <button className="px-8 py-2 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full">
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="px-8 py-2 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full"
+              >
                 <p className="text-white font-medium sm:text-[20px] text-[14px]">
                   Zobraziť viac
                 </p>
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>

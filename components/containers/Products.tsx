@@ -1,3 +1,7 @@
+'use client'
+
+import { motion } from 'framer-motion'
+
 const Products = () => {
   return (
     <section id="products" className="sm:my-24 my-16">
@@ -21,11 +25,15 @@ const Products = () => {
                 </h1>
               </div>
               <div>
-                <button className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full">
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full"
+                >
                   <p className="text-white text-center sm:text-[20px] text-[14px] font-medium">
                     Zobraziť viac
                   </p>
-                </button>
+                </motion.button>
               </div>
             </div>
           </div>
@@ -44,11 +52,15 @@ const Products = () => {
                 </h1>
               </div>
               <div className="flex items-center justify-center">
-                <button className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full">
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full"
+                >
                   <p className="text-white text-center sm:text-[20px] text-[14px] font-medium">
                     Zobraziť viac
                   </p>
-                </button>
+                </motion.button>
               </div>
             </div>
           </div>
@@ -67,11 +79,15 @@ const Products = () => {
                 </h1>
               </div>
               <div className="flex items-center justify-center">
-                <button className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full">
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full"
+                >
                   <p className="text-white text-center sm:text-[20px] text-[14px] font-medium">
                     Zobraziť viac
                   </p>
-                </button>
+                </motion.button>
               </div>
             </div>
           </div>
@@ -87,11 +103,15 @@ const Products = () => {
               Inzerčný portál
             </h1>
             <div className="flex items-center justify-center">
-              <button className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full">
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full"
+              >
                 <p className="text-white text-center text-[20px] font-medium">
                   Zobraziť viac
                 </p>
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>
@@ -106,11 +126,15 @@ const Products = () => {
               Sociálna sieť
             </h1>
             <div className="flex items-center justify-center">
-              <button className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full">
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full"
+              >
                 <p className="text-white text-center text-[20px] font-medium">
                   Zobraziť viac
                 </p>
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>
@@ -125,11 +149,15 @@ const Products = () => {
               Firemný dashboard
             </h1>
             <div className="flex items-center justify-center">
-              <button className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full">
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="px-8 py-2 border border-gray-600 border-y-2 rounded-full sm:w-full"
+              >
                 <p className="text-white text-center text-[20px] font-medium">
                   Zobraziť viac
                 </p>
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>

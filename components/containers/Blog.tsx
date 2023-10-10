@@ -1,3 +1,7 @@
+'use client'
+
+import { motion } from 'framer-motion'
+
 const Blog = () => {
   return (
     <section id="blog" className="my-10">
@@ -70,9 +74,13 @@ const Blog = () => {
 
       <div className="flex items-center justify-center">
         <div className="bg-gradient-to-r from-[#1E1741] to-[#5E16F9] p-[1px] rounded-full">
-          <button className="px-8 py-2 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="px-8 py-2 bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full"
+          >
             <p className="text-white font-medium">Zobraziť viac</p>
-          </button>
+          </motion.button>
         </div>
       </div>
     </section>

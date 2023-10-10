@@ -30,14 +30,26 @@ const Main = () => {
             {/* Buttons */}
             <div className="flex flex-row space-x-4">
               <div className="bg-gradient-to-r from-[#5E16F9] to-[#1E1741]  p-[1px] rounded-full">
-                <button className="px-12 py-3 bg-gradient-to-br from-[#1E1741] to-[#5E16F9] rounded-full h-auto w-full">
-                  <p className="text-white font-medium sm:text-lg">Mám záujem</p>
-                </button>
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="px-12 py-3 bg-gradient-to-br from-[#1E1741] to-[#5E16F9] rounded-full h-auto w-full"
+                >
+                  <p className="text-white font-medium sm:text-lg">
+                    Mám záujem
+                  </p>
+                </motion.button>
               </div>
               <div className="bg-gradient-to-r from-[#1E1741] to-[#5E16F9] p-[1px] rounded-full">
-                <button className="px-12 py-3  bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full">
-                  <p className="text-white font-medium sm:text-lg">Naše služby</p>
-                </button>
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="px-12 py-3  bg-gradient-to-br from-[#5E16F9] to-[#1E1741] rounded-full h-auto w-full"
+                >
+                  <p className="text-white font-medium sm:text-lg">
+                    Naše služby
+                  </p>
+                </motion.button>
               </div>
             </div>
 
