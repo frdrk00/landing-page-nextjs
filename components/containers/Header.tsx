@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 import { Menus } from '@/lib/helpers'
 
@@ -15,6 +15,7 @@ const Header = () => {
           <img src="logo.svg" alt="" className="max-sm:w-60" />
         </div>
         <div className="flex gap-8 max-sm:hidden relative">
+        <AnimatePresence>
           <motion.ul
             initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}
@@ -23,14 +24,17 @@ const Header = () => {
           >
             {Menus &&
               Menus.map((item, index) => (
-                <li
-                  key={item.id}
-                  className="text-white text-base text-textColor hover:text-gray-300 duration-100 transition-all ease-in-out cursor-pointer"
-                >
-                  {item.name}
-                </li>
+                <a href={item.uri}>
+                  <li
+                    key={item.id}
+                    className="text-white text-[17px] font-semibold hover:text-gray-300 cursor-pointer"
+                  >
+                    {item.name}
+                  </li>
+                </a>
               ))}
           </motion.ul>
+        </AnimatePresence>
 
           <LanguageSwitcher />
         </div>

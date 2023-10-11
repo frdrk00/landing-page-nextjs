@@ -20,7 +20,7 @@ const About = () => {
             </div>
           </div>
           <div className="relative flex flex-col items-start justify-center sm:space-y-8 space-y-4">
-            <h1 className="absolute sm:top-14 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute sm:block md:hidden lg:block sm:top-14 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
               Analýzy a audit
             </h1>
             <h1 className="sm:text-[36px] text-[28px] text-white font-medium">
@@ -58,7 +58,7 @@ const About = () => {
             </div>
           </div>
           <div className="relative flex flex-col items-start justify-center sm:space-y-8 space-y-4">
-            <h1 className="absolute sm:top-14 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute sm:block md:hidden lg:block sm:top-14 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
               Design
             </h1>
             <h1 className="sm:text-[36px] text-[28px] text-white font-medium">
@@ -95,7 +95,7 @@ const About = () => {
             </div>
           </div>
           <div className="relative flex flex-col items-start justify-center sm:space-y-8 space-y-4">
-            <h1 className="absolute sm:top-14 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
+            <h1 className="absolute sm:block md:hidden lg:block sm:top-14 top-4 uppercase sm:text-[78px] text-4xl text-white opacity-[2%] font-sans font-semibold">
               Programovanie
             </h1>
             <h1 className="sm:text-[36px] text-[28px] text-white font-medium">

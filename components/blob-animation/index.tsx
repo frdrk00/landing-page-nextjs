@@ -10,6 +10,7 @@ const Blob = () => {
       camera={{
         position: [-7, 3, 6],
       }}
+      className='max-lg:hidden'
     >
       <BlobAnimation />
     </Canvas>
